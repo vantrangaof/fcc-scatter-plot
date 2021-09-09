@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: rgb(221, 221, 221);
+}
+
+svg {
+  background-color: rgb(117, 129, 157);
+  box-shadow: 0px 3px 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#tooltip {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  color: green;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#legend {
+  margin-top: 20px;
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px gray;
+  color: rgb(79, 79, 79);
+  font-size: 17px;
+  text-align: center;
+}
+
+#title {
+  font-size: 20px;
+  fill: whitesmoke;
+}
